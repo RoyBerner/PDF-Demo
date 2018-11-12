@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2015F5B3219A105700F407D9 /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015F5B2219A105700F407D9 /* ReaderViewController.swift */; };
 		207FA4A42199CAA400B6F798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FA4A32199CAA400B6F798 /* AppDelegate.swift */; };
-		207FA4A62199CAA400B6F798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FA4A52199CAA400B6F798 /* ViewController.swift */; };
-		207FA4A92199CAA400B6F798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207FA4A72199CAA400B6F798 /* Main.storyboard */; };
 		207FA4AB2199CAA600B6F798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207FA4AA2199CAA600B6F798 /* Assets.xcassets */; };
 		207FA4AE2199CAA600B6F798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207FA4AC2199CAA600B6F798 /* LaunchScreen.storyboard */; };
+		207FA4BC2199DD5100B6F798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207FA4BB2199DD5100B6F798 /* Main.storyboard */; };
+		207FA4BE2199DDAA00B6F798 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FA4BD2199DDAA00B6F798 /* HomeTableViewController.swift */; };
+		207FA4C02199DF3E00B6F798 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207FA4BF2199DF3E00B6F798 /* TableViewCell.swift */; };
+		DCC0C9D0ABC075D8CF4B82DA /* Pods_PDF_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD67803BC0B3016149841A11 /* Pods_PDF_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5B90114C11F9D8AF96C678 /* Pods-PDF-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDF-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDF-Demo/Pods-PDF-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2015F5B2219A105700F407D9 /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
 		207FA4A02199CAA400B6F798 /* PDF-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		207FA4A32199CAA400B6F798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		207FA4A52199CAA400B6F798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		207FA4A82199CAA400B6F798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		207FA4AA2199CAA600B6F798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		207FA4AD2199CAA600B6F798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		207FA4AF2199CAA600B6F798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207FA4BB2199DD5100B6F798 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		207FA4BD2199DDAA00B6F798 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		207FA4BF2199DF3E00B6F798 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9F49198AED7A4368723C15B0 /* Pods-PDF-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDF-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDF-Demo/Pods-PDF-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		DD67803BC0B3016149841A11 /* Pods_PDF_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDF_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC0C9D0ABC075D8CF4B82DA /* Pods_PDF_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				207FA4A22199CAA400B6F798 /* PDF-Demo */,
 				207FA4A12199CAA400B6F798 /* Products */,
+				5DCBA14756C391C6FFE7E3C7 /* Pods */,
+				F68299B28C950B2DE0ED267B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				207FA4A32199CAA400B6F798 /* AppDelegate.swift */,
-				207FA4A52199CAA400B6F798 /* ViewController.swift */,
-				207FA4A72199CAA400B6F798 /* Main.storyboard */,
 				207FA4AA2199CAA600B6F798 /* Assets.xcassets */,
 				207FA4AC2199CAA600B6F798 /* LaunchScreen.storyboard */,
+				207FA4BB2199DD5100B6F798 /* Main.storyboard */,
+				2015F5B2219A105700F407D9 /* ReaderViewController.swift */,
+				207FA4BF2199DF3E00B6F798 /* TableViewCell.swift */,
 				207FA4AF2199CAA600B6F798 /* Info.plist */,
+				207FA4BD2199DDAA00B6F798 /* HomeTableViewController.swift */,
 			);
 			path = "PDF-Demo";
+			sourceTree = "<group>";
+		};
+		5DCBA14756C391C6FFE7E3C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B90114C11F9D8AF96C678 /* Pods-PDF-Demo.debug.xcconfig */,
+				9F49198AED7A4368723C15B0 /* Pods-PDF-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F68299B28C950B2DE0ED267B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD67803BC0B3016149841A11 /* Pods_PDF_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 207FA4B22199CAA600B6F798 /* Build configuration list for PBXNativeTarget "PDF-Demo" */;
 			buildPhases = (
+				97F8B96068BE903094B5316A /* [CP] Check Pods Manifest.lock */,
 				207FA49C2199CAA400B6F798 /* Sources */,
 				207FA49D2199CAA400B6F798 /* Frameworks */,
 				207FA49E2199CAA400B6F798 /* Resources */,
+				32EB6EB46C834D54889B2AAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +154,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207FA4BC2199DD5100B6F798 /* Main.storyboard in Resources */,
 				207FA4AE2199CAA600B6F798 /* LaunchScreen.storyboard in Resources */,
 				207FA4AB2199CAA600B6F798 /* Assets.xcassets in Resources */,
-				207FA4A92199CAA400B6F798 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32EB6EB46C834D54889B2AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PDF-Demo/Pods-PDF-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDF-Demo/Pods-PDF-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F8B96068BE903094B5316A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDF-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		207FA49C2199CAA400B6F798 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				207FA4A62199CAA400B6F798 /* ViewController.swift in Sources */,
+				207FA4C02199DF3E00B6F798 /* TableViewCell.swift in Sources */,
+				207FA4BE2199DDAA00B6F798 /* HomeTableViewController.swift in Sources */,
 				207FA4A42199CAA400B6F798 /* AppDelegate.swift in Sources */,
+				2015F5B3219A105700F407D9 /* ReaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		207FA4A72199CAA400B6F798 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				207FA4A82199CAA400B6F798 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		207FA4AC2199CAA600B6F798 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +347,7 @@
 		};
 		207FA4B32199CAA600B6F798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5B90114C11F9D8AF96C678 /* Pods-PDF-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +366,7 @@
 		};
 		207FA4B42199CAA600B6F798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F49198AED7A4368723C15B0 /* Pods-PDF-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
